@@ -1,7 +1,7 @@
 import streamlit as st
 from chatbot import Chatbot
 import streamlit as st
-
+import openai
 
 Chatbot = Chatbot()
 
