@@ -1,6 +1,8 @@
 import openai
 import os
 
+#clietn = OpenAI()
+
 # Load the OpenAI API key from the environment
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
