@@ -1,5 +1,14 @@
 import streamlit as st
 import pandas as pd
+from sample_2 import print_2
+
+st.write('# Hello, world!\n\nThis is a simple example of a Streamlit app.')
+
+print_2 = print_2()
+text = print_2.write('Hello, world!')
+st.write(text)
+
+"""
 st.write('# Hello, world!\n\nThis is a simple example of a Streamlit app.')
 st.caption('This is a caption')
 
@@ -62,4 +71,4 @@ uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
     st.write(data)
-
+"""
