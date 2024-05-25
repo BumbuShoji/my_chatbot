@@ -5,7 +5,7 @@ from sample_2 import print_2
 st.write('# Hello, world!\n\nThis is a simple example of a Streamlit app.')
 
 print_2 = print_2()
-text = print_2.write('Hello, world!')
+text = print_2.add('# Hello, world!','This is a simple example of a Streamlit app.')
 st.write(text)
 
 """
